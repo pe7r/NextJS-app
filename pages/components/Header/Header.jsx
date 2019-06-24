@@ -7,7 +7,16 @@ export default function Header() {
             <ul>
                 <li><Link href='/'><a>Home</a></Link></li>
                 <li><Link href='/about'><a>About Us</a></Link></li>
-            </ul>         
+            </ul>
+
+            <style jsx>
+                {`
+                    li a {
+                        text-decoration: none;
+                        color: black
+                    }
+                `}
+            </style>      
         </div>
     )
 }
